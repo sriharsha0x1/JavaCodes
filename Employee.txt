@@ -1,0 +1,35 @@
+import java.util.*;
+class EmpDemo
+{
+	Scanner s=new Scanner(System.in);
+	String name,empid;
+	int salary;
+	static int exp;
+	void empRead(){
+		
+		System.out.println("Enter employee id and name and salary ");
+		empid=s.next();
+		name=s.next();
+		System.out.println("Enter salary :");
+		salary=s.nextInt();
+		exp=exp+salary;
+		
+	}
+	void  empDisplay(){
+		Systam.out.println("Total expenditure spent on salaries="+exp);	
+	}
+}
+class Employee
+{
+	public static void main(String args[]){
+		EmpDemo e1=new EmpDemo();
+		EmpDemo e2=new EmpDemo();
+EmpDemo e3=new EmpDemo();
+		e1.empRead();
+		s1.stuDisplay();
+		StuDemo s2=new StuDemo();
+		s2.stuRead();
+		s2.stuDisplay();
+
+	}
+}
